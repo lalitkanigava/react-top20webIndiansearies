@@ -11,7 +11,9 @@ function App() {
 				{serieslist.map((data) => {
 					return (
 						<Cards
+							key={data.id}
 							info={{
+								appdis: data.appdis,
 								link: data.link,
 								img: data.imgurl,
 								name: data.sname,

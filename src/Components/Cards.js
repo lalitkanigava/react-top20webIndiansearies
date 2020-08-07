@@ -15,6 +15,11 @@ function Cardss(props) {
 				<Card.Title>
 					<h4>{props.info.name}</h4>
 				</Card.Title>
+				<Card.Text>
+					<span>
+						<small>{props.info.appdis}</small>
+					</span>
+				</Card.Text>
 				<Button variant="secondary">
 					<a href={props.info.link}>Watch Now</a>
 				</Button>
